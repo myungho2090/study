@@ -1,0 +1,13 @@
+{
+  "name": "study",
+  "version": "1.0.0",
+  "description": "숨고수업 hello world",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+  }
+}
