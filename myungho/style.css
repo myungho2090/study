@@ -10,18 +10,31 @@ h2 {
 }
 body {
   background-color: darkgray;
-  font-display: 0;
+
+  text-align: center;
+}
+input {
+  text-align: left;
+}
+::placeholder {
   text-align: center;
 }
 p {
+  width: 400px;
+  padding: 1%;
   font-size: 33px;
   font-weight: bolder;
   font-style: oblique;
   font-display: 0;
   text-align: center;
+  border-style: solid;
+  border-color: red;
+  border-width: 3px;
+  margin: auto;
+  border-radius: 40%;
 }
 h3 {
-  color: darkolivegreen;
+  color: rgb(230, 43, 6);
   font-display: 0;
   text-align: center;
 }
@@ -42,4 +55,9 @@ tbody,
 td {
   text-align: center;
   font-display: 0;
+}
+hr {
+  background-color: antiquewhite;
+  height: 2px;
+  border: 0;
 }
