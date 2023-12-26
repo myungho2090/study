@@ -1,4 +1,4 @@
-// var a = 5;
+// var a = 3;
 
 // switch (a) {
 //   case 1:
@@ -18,7 +18,7 @@
 //     console.log(a);
 
 //     if(reponse){
-//         //resposne = true;
+//         resposne = true;
 //         break;
 //     }
 
@@ -35,7 +35,6 @@
 // let b = [];
 
 // let a = ["가", "나", "다", "라", "마"];
-
 
 // for (let i = 0; i < a.length; i++) {
 //   console.log(a[i]);
@@ -54,8 +53,7 @@
 
 // for (let i = 0; i < e.length; i++) {}
 
-
-let my_arr = ['a','b','c','d'];
+// let my_arr = ['a','b','c','d'];
 
 // my_arr.forEach(
 //     (e, i, arr) => {
@@ -68,7 +66,6 @@ let my_arr = ['a','b','c','d'];
 //         console.log(e,i,arr);
 //     }
 // )
-
 
 /*
 
@@ -101,15 +98,13 @@ let my_arr = ['a','b','c','d'];
 
 // console.log('filter_resposne',filter_response);
 
-
 // let my_arr4 = [1,2,3,4,5];
- 
+
 // let reduce_response = my_arr4.reduce((p,c,index,arr) => {
 //     return p + c;
 // },0);
 
 // console.log('reduce_response', reduce_response);
-
 
 // let result = 0;
 // for(let i =0; i<my_arr4.length; i++){
@@ -123,9 +118,6 @@ let my_arr = ['a','b','c','d'];
 // e = 1;
 
 // const buga = 0.1;
-
-
-
 
 // let a = 1;
 
@@ -157,42 +149,33 @@ let my_arr = ['a','b','c','d'];
 
 // let a = 1;
 
-// a -= 2  
+// a -= 2
 
 // a = a - 2;
 
 //이항 연산자
 
-let a = 0;
+// let a = 0;
 
-let b = null ?? 2;
+// let b = null ?? 2;
 
-if(a != null){
-    b = a;
-}else{
-    b = 2;
-}
+// if(a != null){
+//     b = a;
+// }else{
+//     b = 2;
+// }
 
-//삼항 연산자
+// //삼항 연산자
 
-a = 0
+// a = 0
 
-let q = a ? 1 : 2;
+// let q = a ? 1 : 2;
 
-if(a == 0){
-    q = 1;
-}else{
-    q = 2;
-}
-console.log('q',q);
-
+// if(a == 0){
+//     q = 1;
+// }else{
+//     q = 2;
+// }
+// console.log('q',q);
 
 //DATE
-
-
-
-
-
-
-
-
