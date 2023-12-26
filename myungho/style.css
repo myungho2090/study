@@ -1,0 +1,23 @@
+h1 {
+  color: brown;
+  font-display: 0;
+}
+h2 {
+  color: blueviolet;
+  font-display: 0;
+}
+body {
+  background-color: darkgray;
+  font-display: 0;
+}
+p {
+  font-size: 33px;
+  font-weight: bolder;
+  font-style: oblique;
+  font-display: 0;
+  text-align: center;
+}
+h3 {
+  color: darkolivegreen;
+  font-display: 0;
+}
