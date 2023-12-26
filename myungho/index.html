@@ -5,72 +5,93 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>설문조사TEST</title>
     <link rel="stylesheet" href="./style.css" />
+    
   </head>
   <style>
     h1 {
       text-align: center;
     }
+  
+    
   </style>
   <body>
-    <h1>설문조사TEST!!</h1>
+    
+      <h1>설문조사TEST!!</h1>
     <h3><<설문조사>></h3>
     <p>아래 항목을 채워주세요!!</p>
     <hr />
     <h2>1. 신상 정보:</h2>
     <table>
-      <th style="color: chocolate;">
-        아이디 :
-        <input type="id" value="" placeholder="아이디 입력" />
-      </th>
-
-      <th style="color: chocolate;">
-        비밀번호 :
-        <input type="password" value="" placeholder="비밀번호입력" />
-      </th>
-      <th style="color: chocolate;">
-        이메일주소 : <input type="text" value=""/>
-        <select class="select"/>
+      <thead>
+        <form>
+          <tr>아이디 : <input type="text" value="" placeholder="아이디입력"</tr>
+          <br>
+          <br>
+          <tr>비밀번호 : <input type="password" value="" placeholder="비밀번호입력"</tr>
+          <br>
+          <br>
+          <tr>이메일 : <input type="email" value="" placeholder="email입력"</tr>
+        </form>
+      </thead>
         
-          <option value="naver.com">naver.com</option>
-          <option value="daum.net">daum.net</option>
-          <option value="gmail.com">gmail.com</option>
+      </form>
+        
+        
+        
+        <tbody>
+          <form>
+          <select class="select">
+            <option value="naver.com">naver.com</option>
+            <option value="gamil.com">gmail.com</option>
+            <option value="daum.net">daum.net</option>
+          </select>
+        </form>
+      
           
-      </select>
-      </th>
-    </table>
-
-    <br />
-    <br />
-    <h2>2. 어떤 경로로 알게 되었습니까?</h2>
-
-    <input type="radio" value="기사" />기사
-    <input type="radio" value="광고" />광고
-    <input type="radio" value="기타" />기타
-
-    <br />
-    <br />
-    <br />
-    <h2>3. 좋아하는 스포츠는 무엇입니까?</h2>
-    <input type="checkbox" value="축구" />축구
-    <input type="checkbox" value="농구" />농구
-    <input type="checkbox" value="야구" />야구
-    <input type="checkbox" value="댄스" />댄스
-    <input type="checkbox" value="테니스" />테니스
-  </body>
-  <br>
-  <br>
-  <h2>4. 언제 설문조사를 하셨나요?</h2>
-  <br>
-
-  <input type="date" name="start">
   
-  <br />
-  <br />
-  <br />
-  <hr>
-  <h4 style="color: brown;">이대로 전송하시겠습니까?</h3>
-    <form>
-    <button type="submit" value="예">예</button>
-    <button type="submit" value="아니오" >아니오</button>
-    </form>
+        </tbody>
+       </thead>
+      </table>
+     
+  
+      <br />
+      <br />
+      <h2>2. 어떤 경로로 알게 되었습니까?</h2>
+      <from>
+        <label for="1"><input type="radio" id="1" name="checked" checked />기사</label>
+        <label for="2"><input type="radio" id="2" name="checked" />광고</label>
+        <label for="3"><input type="radio" id="3" name="checked" />기타</label>
+      </from>
+     
+  
+      <br />
+      <br />
+      <br />
+      <h2>3. 좋아하는 스포츠는 무엇입니까?</h2>
+      <form>
+        <label for="축구"><input type="checkbox" value="축구" name="checkbox" id="축구"/>축구</label>
+        <label for="농구"><input type="checkbox" value="농구" name="checkbox" id="농구"/>농구</label>
+        <label for="야구"><input type="checkbox" value="야구" name="checkbox" id="야구"/>야구</label>
+        <label for="댄스"><input type="checkbox" value="댄스" name="checkbox" id="댄스"/>댄스</label>
+        <label for="테니스"><input type="checkbox" value="테니스" name="checkbox" id="테니스"/>테니스</label>
+      </form>
+     
+    </body>
+    <br>
+    <br>
+    <h2>4. 언제 설문조사를 하셨나요?</h2>
+    <br>
+    <form><input type="date" name="start"></form>
+    
+    
+    <br />
+    <br />
+    <br />
+    <hr>
+    <h3 style="color: brown;">이대로 전송하시겠습니까?</h3>
+      <form>
+        <button type="submit" value="예">예</button>
+        <button type="submit" value="아니오" >아니오</button>
+      </form>
+  
 </html>

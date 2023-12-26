@@ -1,14 +1,17 @@
 h1 {
   color: brown;
   font-display: 0;
+  text-align: center;
 }
 h2 {
   color: blueviolet;
   font-display: 0;
+  text-align: center;
 }
 body {
   background-color: darkgray;
   font-display: 0;
+  text-align: center;
 }
 p {
   font-size: 33px;
@@ -19,5 +22,24 @@ p {
 }
 h3 {
   color: darkolivegreen;
+  font-display: 0;
+  text-align: center;
+}
+body {
+  background-image: url("다운로드.jpeg");
+  background-size: cover;
+  text-align: center;
+}
+tbody table {
+  text-align: center;
+  padding: 0%;
+}
+th input {
+  text-align: center;
+}
+th,
+tbody,
+td {
+  text-align: center;
   font-display: 0;
 }
