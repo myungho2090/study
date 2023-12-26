@@ -5,13 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+    <style>
+        th, td {
+            border: solid 1px red;
+        }
+    </style>
 
 </head>
 
 <body>
+    Hello Html! 
 
-    Hello Html!
-
+    <div>
+        div 입니다.
+    </div>
+    
     <div>
         div 입니다.
     </div>
@@ -19,69 +27,151 @@
     <span>
         span입니다.
     </span>
+    
+    <span>
+        span입니다.
+    </span>
 
-    <a href="index2.html">a 입니다.</a>
 
+    <a href="https://naver.com" target="_blank">
+        a 입니다.
+    </a>
+
+    <br />
     BR도 있습니다.
+    <br />
+    <br />
     <br />
 
     hr
     <hr />
 
-    <img src="" alt="이미지 입니다." />
+    
+    <a href="https://naver.com" target="_blank">
+        <img src="ive.jpg" alt="이미지 입니다." />
+    </a>
 
 
     <table>
         <thead>
-            <tr>tr 입니다.</tr>
+            <tr>
+                <th>이름</th>
+                <th>전화번호</th>
+                <th>이메일</th>
+            </tr>
         </thead>
         <tbody>
             <tr>
-                <td>td 입니다.</td>
+                <th>이준규</th>
+                <td>010-1234-123</td>
+                <td>leejgdh@gmail.com</td>
+            </tr>
+            <tr>
+                <th>이준규</th>
+                <td>010-1234-123</td>
+                <td>leejgdh@gmail.com</td>
+            </tr>
+            <tr>
+                <th>이준규</th>
+                <td>010-1234-123</td>
+                <td>leejgdh@gmail.com</td>
+            </tr>
+            <tr>
+                <th>이준규</th>
+                <td>010-1234-123</td>
+                <td>leejgdh@gmail.com</td>
+            </tr> <tr>
+                <th>이준규</th>
+                <td>010-1234-123</td>
+                <td>leejgdh@gmail.com</td>
             </tr>
         </tbody>
     </table>
 
 
-    <h1>h1 입니다.</h1>
+    <h1 style="padding: 20px;">h1 입니다.</h1>
+    <h2>h2 입니다.</h2>
+    <h3>h3 입니다.</h3>
+    <h4>h4 입니다.</h4>
+    <h5>h5 입니다.</h5>
 
-    <p>p입니다.</p>
+    <p>p입니다.awejfnawiefnawieufaweifawenfawuiefwiaefawneifwaef
+        awejnfawieufawe
+        awenfiuaweafwe
+
+    </p>
     <pre>pre 태그 입니다.
-
-        쓰는대로 나옵니다.
+쓰는대로 나옵니다.
+        aewaweoifaowefaw
+        awenfaoe
     </pre>
     <strong>strong 입니다.</strong>
     <del>del 입니다.</del>
     <i>i 태그입니다.</i>
 
 
-    <ul>
+    <ul style="list-style-type:circle;">
+        <li> <img>ul li</li>
+        <li>ul li</li>
+        <li>ul li</li>
         <li>ul li</li>
     </ul>
 
-
     <ol>
+        <li>ol li</li>
+        <li>ol li</li>
+        <li>ol li</li>
         <li>ol li</li>
     </ol>
 
 
-    <form>
+    <form method="post">
         form 입니다.
 
-        <input type="text" value="input 입니다." placeholder="input 입니다.">
+        <textarea name="textarea" id="" cols="10" rows="5"></textarea>
 
-        <input type="radio" value="" name="radio">
-        <input type="radio" value="" name="radio">
+        <input type="password" value="" placeholder="비밀번호를 입력하세요">
+        <input type="file" name="file">
+        <input type="hidden" value="awefawe" placeholder="awefawe">
+        <input type="text" value="" name="myname" placeholder="input 입니다.">
+
+        <input type="radio" value="1" name="radio">
+        <input type="radio" value="2" name="radio">
         
         <input type="checkbox" value="1" name="checkbox">
         <input type="checkbox" value="2" name="checkbox">
         <input type="checkbox" value="3" name="checkbox">
 
+        <select name="select">
+            <option value="1">옵션 1</option>
+            <option value="2">옵션 2</option>
+            <option value="3">옵션 3</option>
+            <option value="4">옵션 4</option>
+            <option value="5">옵션 5</option>
+        </select>
+
+        <input type="button" value="버튼입니다.">
+        <input type="submit" value="submit입니다" />
+
+        <button type="button">버튼입니다.</button>
+        
+        <button type="submit">submit입니다.</button>
+
     </form>
 
-    시맨틱 태그도 있습니다.
+    시맨틱 태그도 있습니다. 
 
+    <nav>
+        nav
+    </nav>
 
+    <article>
+        article
+    </article>
+
+    <footer>
+        footer
+    </footer>
 </body>
 
 </html>

@@ -179,3 +179,8 @@
 // console.log('q',q);
 
 //DATE
+
+
+function test(name, tel, email){
+
+}
