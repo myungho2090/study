@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>근무표만들기</title>
+    <style>
+      th,
+      td {
+        border: solid 1px slateblue;
+      }
+      table {
+        text-align: center;
+      }
+    </style>
+
+    <h1>근무표 만들기</h1>
+  </head>
+
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th scope="col">날짜</th>
+          <th scope="col">이름</th>
+          <th scope="col">성별</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>12/27</td>
+          <td>정명호</td>
+          <td>남자</td>
+        </tr>
+        <tr>
+          <td>12/28</td>
+          <td>정맹호</td>
+          <td>남자</td>
+        </tr>
+        <tr>
+          <th scope="col">번호</th>
+          <th scope="col">제목</th>
+          <th scope="col" colspan="2">이름</th>
+        </tr>
+      </tbody>
+      <tr>
+        <td rowspan="3">1</td>
+        <td>테이블-1</td>
+        <td>정명호</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>테이블-2</td>
+        <td>정맹호</td>
+        <td>20</td>
+      </tr>
+      <tr>
+        <td>테이블-3</td>
+        <td>정맹맹</td>
+        <td>30</td>
+      </tr>
+    </table>
+  </body>
+</html>
