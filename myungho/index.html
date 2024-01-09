@@ -6,31 +6,34 @@
     <title>설문조사만들기</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <h1>*설문조사*</h1>
-  <br />
-  <br />
 
   <body>
+    <h1>&lt;&lt;설문조사 &gt;&gt;</h1>
+    <br />
+    <br />
     <form>
       <div>
         <h3>1. 문항(서비스 만족도)</h3>
+
         <label for="check1">
-          <input type="radio" value="" id="check1" name="first" />만족</label
+          <input type="radio" value="1" id="check1" name="first" />만족</label
         >
         <br />
         <br />
+
         <label for="check2">
           <input
             type="radio"
-            value=""
+            value="2"
             id="check2"
             name="first"
           />불만족(직접입력) : </label
         ><textarea
+          style="height: 19.5px"
           name="textarea"
           id="check2"
-          cols="12"
-          rows="2"
+          cols="20"
+          rows="5"
           placeholder="불만사항적어주세요."
         ></textarea>
       </div>
